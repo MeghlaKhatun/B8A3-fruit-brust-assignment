@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B8A3 Fruit Brust</title>
+
+    <!-- Lato font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font awesome libraries link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- tailwind and daisyui links -->   
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .lato-font{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+
+</head>
+<body class="lato-font">
+
+    <header>
+
+        <nav class=" max-w-screen-xl mx-auto my-12">
+            <div class="navbar bg-[#F85559] rounded-full flex px-5 md:py-5 md:px-16 justify-between lg:justify-between">
+
+                <div class="navbar-start hidden md:flex flex-1">
+                  <ul class="flex justify-between items-center gap-8 m-0">
+                    <li class="text-white text-xl font-normal"><a href="#">Home</a></li>
+                    <li class="text-white text-xl font-normal"><a href="#">About Us</a></li>
+                    <li class="text-white text-xl font-normal"><a href="#">Shop</a></li>
+                    <li class="text-white text-xl font-normal"><a href="#">All Fruits</a></li>
+                  </ul>
+                </div>
+
+                <div>
+
+                  <div class="flex flex-1 items-center gap-2 lg:-ml-10">
+                    <img src="images/logo.png" alt="">
+                    <h1 class="text-white text-4xl font-bold">Fruit Burst</h1>
+                  </div>
+
+                </div>
+
+                <div class="navbar-end  hidden md:flex flex-1 ">
+
+                  <input type="search" placeholder="Search here" class="outline-none py-2 px-7  bg-white rounded-full">
+                  <a href="#" class="absolute mr-5"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+                </div>
+
+
+
+                <div class="dropdown">
+                  <label tabindex="0" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                  </label>
+                  <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#F85559] rounded-box w-52">
+                    <li class="text-white text-xl font-normal"><a href="#">Home</a></li>
+                    <li class="text-white text-xl font-normal"><a href="#">About Us</a></li>
+                    <li class="text-white text-xl font-normal"><a href="#">Shop</a></li>
+                    <li class="text-white text-xl font-normal"><a href="#">All Fruits</a></li>
+                    <input type="search" placeholder="Search here" class="outline-none py-2 px-2 bg-white rounded-full">
+                  <a href="#" class="absolute mt-32 ml-36"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </ul>
+                    
+                
+                </div>
+
+              </div>
+
+        </nav>
+
+    </header>
+
+
+    
+</body>
+</html>
